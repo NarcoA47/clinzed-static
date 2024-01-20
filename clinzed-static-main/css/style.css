@@ -1,0 +1,450 @@
+
+/*------------------Cover-Image---------------------*/
+.homepage .cover-photo .container .content {
+    position: relative;
+}
+
+.homepage .cover-photo .container .content img {
+    width: 100%;
+    border-radius: 50px;
+    filter: blur(3px);
+}
+
+.homepage .cover-photo .container .content .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    font-size: 50px;
+}
+
+
+/*-----------------End-Cover-Image---------------------*/
+/*------------------Our-Services---------------------*/
+
+.homepage .service-tabs .our-services {
+    display: block;
+    text-align: center;
+    margin: 10rem 4rem;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: Arial;
+}
+
+.homepage .service-tabs .our-services .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem; /* Adjusted margin for better spacing */
+}
+
+.homepage .service-tabs .our-services .container .card {
+    box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+    border-radius: 0.5rem;
+    margin: 0rem 1rem; /* Adjusted margin for better spacing */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px; /* Adjusted font size for better readability */
+    padding: 0px 2px;
+}
+
+.homepage .service-tabs .our-services .container .card img {
+    border-radius: 0.5rem;
+    width: 100%;
+    margin: 0.5px; /* Adjusted margin for better image presentation */
+}
+
+.homepage .service-tabs .our-services .container .card .button {
+    box-shadow: 2px 2px 2px 2px rgb(132, 131, 131);
+    border-radius: 0.5rem;
+    margin: 15px 25px; 
+    height: 50px;
+    text-align: center;
+}
+
+.homepage .service-tabs .our-services .container .card .button a {
+    position: relative;
+    top: 15px;
+    color: black;
+    text-decoration: none; /* Added text-decoration for better aesthetics */
+}
+/*-----------------End-Our-Services---------------------*/
+/*-----------------Highlight----------------------------*/
+.homepage .highlight  {
+    display: block;
+    margin: 10rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container {
+    display: block;
+    margin: 10rem 4rem;
+    text-align: center;
+}
+
+/*---------tab-1-----------*/
+
+.homepage .highlight .container .tabs-1 {
+    display: flex;
+    margin: 0rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-1 .text-container{
+    text-align: center;
+    margin-right: 10rem;
+}
+
+.homepage .highlight .container .tabs-1 .image-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.homepage .highlight .container .tabs-1 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+/*---------tab-2-----------*/
+
+.homepage .highlight .container .tabs-2 {
+    display: flex;
+    margin: 6rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-2 .text-container{
+    text-align: center;
+    margin-right: 10rem;
+}
+
+.homepage .highlight .container .tabs-2 .image-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.homepage .highlight .container .tabs-2 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+/*-----------tab-3----------*/
+
+.homepage .highlight .container .tabs-3 {
+    display: flex;
+    margin: 6rem 4rem;
+    text-align: center;
+}
+
+.homepage .highlight .container .tabs-3 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.homepage .highlight .container .tabs-3 .image-container img{
+    width: 75%;
+    border-radius: 15px;
+}
+
+.homepage .highlight .container .tabs-3 .text-container{
+    text-align: center;
+    margin-left: 10rem;
+}
+/*-----------------End-highlight-------------------------*/
+
+/*----------------News-letter---------------------------*/
+.homepage .news-letter {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 7rem;
+    font-family: arial;
+}
+
+
+.homepage .news-letter .container{
+    width: 25%;
+    border-radius: .5rem;
+    margin: 0rem 4rem;
+    padding: px 2px;
+    background-color: rgb(4, 58, 30);
+    color: #ffffff;
+}
+
+.homepage .news-letter .container h2{ 
+    text-align: center;
+}
+
+.homepage .news-letter .container form{ 
+    margin: 2rem 1rem;
+}
+
+.homepage .news-letter .container form label{ 
+    margin: 1.5rem 0rem;
+    color: #ffffff;
+}
+
+.homepage .news-letter form input[type="text"]{
+    width: 100%;
+    background: none;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    margin: 1rem 0rem;
+    color: #ffff;
+}
+
+.homepage .news-letter form input[type=text]:focus {
+    width: 100%;
+    background: none;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    outline: none;
+    margin: 1rem 0rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #18181829;
+}
+
+.homepage .news-letter form button {
+    background: none;
+    background-color: none;
+    border: none;
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 14px 10px;
+    margin: 9px 55px;
+    border-radius: .7rem;
+    position: relative;
+    left: 12.5rem;
+    color: #ffffff;
+}
+
+.homepage .news-letter form button:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*---------------End-News-letter---------------------------*/
+
+/*-----------------Dimention-Responsive------------------*/
+@media screen and (max-width: 720px) {
+    /*------------------Cover-Image---------------------*/
+    .homepage .cover-photo .container .content {
+        width: 100%;
+    }
+
+    .homepage .cover-photo .container .content img{
+        width: 100%;
+    }
+    /*-----------------End-Cover-Image---------------------*/
+    /*------------------Our-Services---------------------*/
+    .homepage .service-tabs .our-services .container{
+        display: block;
+        justify-content: space-between;
+        margin: 5rem 1rem;
+    }
+
+    .homepage .service-tabs .our-services .container .card{
+        box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+        border-radius: .5rem;
+        margin: 4rem 0rem;
+        text-align: center;
+        padding: 0px 0px;
+        width: 100%;
+        height: 130vh;
+    }
+
+    .homepage .service-tabs .our-services .container .card img{
+        border-radius: .5rem;
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .homepage .service-tabs .our-services .container .card .button{
+        box-shadow: 2px 2px 2px 2px rgb(132, 131, 131);
+        border-radius: .5rem;
+        margin: 30px 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .homepage .service-tabs .our-services .container .card .button a{
+    position: relative;
+    top: 15px;
+    color: black;
+    }
+    /*-----------------End-Our-Services---------------------*/
+    /*-----------------Highlight----------------------------*/
+    .homepage .highlight  {
+        display: block;
+        margin: 10rem 4.5rem;
+    }
+
+    .homepage .highlight .container {
+        display: block;
+        margin: 4rem 0rem;
+        text-align: none;
+    }
+
+    .homepage .highlight .container .tabs-1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0rem;
+    }
+
+    .homepage .highlight .container .tabs-1 .image-container{
+        width: 100%;
+        
+    }
+
+    .homepage .highlight .container .tabs-1 .image-container img{
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .homepage .highlight .container .tabs-1 .text-container{
+        text-align: start;
+        margin-left: 0rem;
+        margin: 4rem 0.5rem;
+    }
+
+    .homepage .highlight .container .tabs-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0rem;
+    }
+
+    .homepage .highlight .container .tabs-2 .image-container{
+        width: 100%;
+    }
+
+    .homepage .highlight .container .tabs-2 .image-container img{
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .homepage .highlight .container .tabs-2 .text-container{
+        text-align: start;
+        margin-left: 0rem;
+        margin: 4rem 0.5rem;
+    }
+
+    .homepage .highlight .container .tabs-3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0rem;
+    }
+
+    .homepage .highlight .container .tabs-3 .image-container {
+        width: 100%;
+    }
+
+    .homepage .highlight .container .tabs-3 .image-container img{
+        width: 100%;
+        border-radius: .5rem;
+    }
+
+    .homepage .highlight .container .tabs-3 .text-container{
+        text-align: start;
+        margin-left: 0rem;
+        margin: 4rem 0.5rem;
+    }
+
+    /*----------------News-letter---------------------------*/
+.homepage .news-letter {
+    display: flex;
+    justify-content: center;
+    left: 0rem;
+    margin: 0rem .5rem;
+}
+
+
+.homepage .news-letter .container{
+    width: 80%;
+    border-radius: .5rem;
+    margin: 0rem 0rem;
+    padding: 1px 2px;
+    background-color: rgb(4, 58, 30);
+    color: #ffffff;
+}
+
+.homepage .news-letter .container h2{ 
+    text-align: center;
+}
+
+.homepage .news-letter .container form{ 
+    margin: 2rem 1rem;
+}
+
+.homepage .news-letter .container form label{ 
+    margin: 1.5rem 0rem;
+    color: #ffffff;
+}
+
+.homepage .news-letter form input[type="text"]{
+    width: 100%;
+    background: none;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    margin: 1rem 0rem;
+}
+
+.homepage .news-letter form input[type=text]:focus {
+    width: 100%;
+    background: none;
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    outline: none;
+    margin: 1rem 0rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #18181829;
+}
+
+.homepage .news-letter form button {
+    background: none;
+    background-color: none;
+    border: none;
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 1rem 2rem;
+    margin: 1rem 1rem;
+    border-radius: .2rem;
+    position: relative;
+    left: 12.5rem;
+    color: #ffffff;
+}
+
+/*---------------End-News-letter---------------------------*/
+}
+

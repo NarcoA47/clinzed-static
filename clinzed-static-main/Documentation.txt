@@ -1,0 +1,26 @@
+Cleanzed Limited - Web application documentation
+
+Lead developer:
+Bulemu Narco Shilukukwa
+
+The lead developer in this project has taken the role to work on both front and back.
+The lead developer's focus is to develop the front end
+
+Developer
+Simon Mwape Chache
+The other developer has taken the role to develop the back end.
+
+Info:
+The cleanzed web application has been developed with html, css and javascript as the front-end frameworks.
+The Backend frameworks and selected programming languages include python-django.
+
+Workspace:
+There are 6 folders in this project and two independent files that are running with the front-end. The folder structure is as stated below.
+- admin
+- assets
+- css
+- dashboard
+- js
+- pages
+
+The admin page consists of other internal folders and one external folder.
